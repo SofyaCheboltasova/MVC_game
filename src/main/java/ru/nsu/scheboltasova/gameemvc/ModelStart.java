@@ -16,7 +16,6 @@ import javafx.stage.Stage;
 
 import java.io.FileInputStream;
 import java.io.IOException;
-
 /**
  * Class for starting the game, creating background with buttons, handling clicks to move to the main game
  */
@@ -55,6 +54,8 @@ public final class ModelStart extends Application {
         start = new Label("START");
         settings = new Label("SETTINGS");
         Text gameName = new Text("SHARK RACE");
+
+        Font.loadFont(new FileInputStream("src/main/java/ru/nsu/scheboltasova/gameemvc/VINERITC.TTF"), SMALL_FONT_SIZE);
 
         exit.setFont(Font.font("Viner Hand ITC", SMALL_FONT_SIZE));
         start.setFont(Font.font("Viner Hand ITC", SMALL_FONT_SIZE));
