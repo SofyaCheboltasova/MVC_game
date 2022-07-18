@@ -4,9 +4,9 @@ Note:
 - To use correct font download "VINERITC.TTF" and save it to ../Windows/Fonts
 
 Task:
-Разработайте компьютерную игру. Выбор игры остается за вами. Главное требование – игра должна преобразовываться в многопользовательскую игру с разделяемыми данными.
+- Develop a computer game. The main requirement is that the game must be converted to a multiplayer game with shared data.
+- The architecture of the program should be based on the MVC (Model-View-Controller) pattern.
 
-Архитектура программы должна быть основана на паттерне MVC (Model-View-Controller).
-Требования к программе
-Игра должна поддерживать таблицу рекордов.
-Пользователю должны быть доступны команды: Exit, About, New Game, High Scores.
+Program Requirements:
+- The game must support a high score table.
+- The following commands should be available to the user: Exit, About, New Game, High Scores.
