@@ -1,5 +1,5 @@
 ## Note:
-- To use correct font download "VINERITC.TTF" and save it to ../Windows/Fonts
+- To use correct font download **"VINERITC.TTF"** and save it to ../Windows/Fonts
 
 # Task:
 - Develop a computer game. The main requirement is that the game must be converted to a multiplayer game with shared data.
