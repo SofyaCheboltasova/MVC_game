@@ -17,34 +17,6 @@ import javafx.stage.Stage;
 import java.io.FileInputStream;
 import java.io.IOException;
 
-/*
-import java.util.Scanner;
-
-public class Main {
-    public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        final String input = in.nextLine();
-        final String[] data = input.split(" ");
-
-        int numPeople = data[0];
-        if (numPeople < 1){
-            System.out.println("Wrong data!");
-            return 0;
-        }
-
-        if(numPeople % 2){
-            System.out.println(numPeople / 2);
-            return 0;
-        }
-        else {
-
-        }
-
-}
-
- */
-
-
 /**
  * Class for starting the game, creating background with buttons, handling clicks to move to the main game
  */
